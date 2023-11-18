@@ -30,7 +30,7 @@
                         bilingue con diplomado en Atencion al cliente, ciberseguridad con estudio en Base de datos.</p>
 
                     <div class="col-12 col-sm-6 my-4 d-none d-sm-block">
-                        <a id="int" class="btn btn-primary" href="contacto.html" role="button">Enviar Mensaje</a>
+                        <a id="int" class="btn btn-primary" href="contacto.php" role="button">Enviar Mensaje</a>
                     </div>
                 </div>
 

@@ -11,10 +11,8 @@
                         
                         <a id="txtbutton" class="btn btn-primary" target="_blank" href="https://www.canva.com/design/DAFZLvOSf-M/g30fdTkEtFSjhJ6wvCxO-w/edit?utm_content=DAFZLvOSf-M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" role="button">Descargar CV <i id="download" class="fa-solid fa-download"></i></a>
 
-                    </div>
-                    
+                    </div>  
                 </div>
-                
             </div>
            
         </nav>  
