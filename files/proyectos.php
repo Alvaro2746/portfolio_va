@@ -47,7 +47,7 @@
                             <a id="" class="btn btn-primary" target="_blank" href="../actividades/abmclientes" role="button">Ver online</a>
                         </div>
                         <div id="cf" class="col-6">
-                            <a href="">Codigo fuente</a>
+                            <a target="blank" href="https://github.com/Alvaro2746/ABMClientes">Codigo fuente</a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                             <a id="" class="btn btn-primary" href="#" role="button">Ver online</a>
                         </div>
                         <div id="cf" class="col-6">
-                            <a href="">Codigo fuente</a>
+                            <a href="" target="_blank">Codigo fuente</a>
                         </div>
                     </div>
                 </div>
