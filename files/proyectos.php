@@ -32,10 +32,16 @@
         <div class="row">
             <div id="proyecto" class="col-12 col-md-4 p-3">
                 <div class="p-3" id="pcont">
-                    <img src="../images/abmclientes.png" class="img-fluid" alt="ABM CLIENTES">
-                    <h2 class="p-2">ABM CLIENTES</h2>
+                    <div id="divimg">
+                        <img src="../images/abmclientes.png" class="img-fluid" alt="ABM CLIENTES">
+                    </div>
+                    <div id="divh2">
+                        <h2 class="p-2">ABM CLIENTES</h2>
+                    </div>
+                    <div id="divp">
                     <p>Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP, Bootstrap y
                         Json.</p>
+                    </div>
                     <div id="pbotton" class="row">
                         <div id="vo" class="col-6">
                             <a id="" class="btn btn-primary" href="#" role="button">Ver online</a>

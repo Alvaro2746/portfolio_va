@@ -256,9 +256,12 @@ div #proyecto {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.8631827731092436) 0%, rgba(0, 0, 179, 1) 52%, rgba(0, 1, 255, 1) 100%);
 
 }
+#divh2{
+    height: 1000px;
+}
 
 #proyecto p {
-    height: 150px;
+    height: 10px;
     font-size: 14px;
 }
 
