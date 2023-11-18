@@ -44,7 +44,7 @@
                     </div>
                     <div id="pbotton" class="row">
                         <div id="vo" class="col-6">
-                            <a id="" class="btn btn-primary" href="#" role="button">Ver online</a>
+                            <a id="" class="btn btn-primary" target="_blank" href="../actividades/abmclientes" role="button">Ver online</a>
                         </div>
                         <div id="cf" class="col-6">
                             <a href="">Codigo fuente</a>
