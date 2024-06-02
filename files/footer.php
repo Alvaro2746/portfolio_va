@@ -8,7 +8,7 @@ $body = 'I am interested on your services';
         <div class="row">
             <div id="i1" class="col-3">
                 <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/alvaro-villarreal-854061188/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <div id="i2" class="col-3">
                 <p>Virtual Assistant</p>

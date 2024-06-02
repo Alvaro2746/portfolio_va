@@ -2,6 +2,8 @@
 $email = "ejemplo@correo.com";
 $subject = "Asunto del correo";
 $body = "Cuerpo del mensaje";
+
+/*<a href="mailto:<?php echo $email; ?>?subject=<?php echo $subject; ?>&body=<?php echo $body; ?>"><p>alvaroviyareal@gmail.com</p></a>*/
 ?>
 
 <?php $pag="contact";?>
@@ -37,14 +39,14 @@ $body = "Cuerpo del mensaje";
                             <a href="https://api.whatsapp.com/send?phone=573184559655" target="_blank"><i class="fab fa-whatsapp"></i></a>
                         </div>
                         <div class="circle email">
-                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:<?php echo $email; ?>?subject=<?php echo $subject; ?>&body=<?php echo $body; ?>"><i class="fas fa-envelope"></i></a>
 
                         </div>
                         <div class="circle zoom">
                             <i class="fas fa-video"></i>
                         </div>
                         <div class="circle linkedin">
-                            <i class="fab fa-linkedin-in"></i>
+                            <a href="https://www.linkedin.com/in/alvaro-villarreal-854061188/" target="_blank"><i class="fab fa-linkedin-in"></i></i></a>
                         </div>
                     </div>
                     
@@ -65,8 +67,6 @@ $body = "Cuerpo del mensaje";
                             <textarea name="txtMen" id="txtMen" rows="4" required class="form-control" placeholder="Message"></textarea>
                         </div>
                         <div id="send">
-                        <a href="mailto:<?php echo $email; ?>?subject=<?php echo $subject; ?>&body=<?php echo $body; ?>"><p>alvaroviyareal@gmail.com</p></a>
-
                             <button id="send" type="submit" class="mx-9 form-control">Send</button>
                         </div>
                     </form>

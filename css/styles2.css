@@ -185,33 +185,33 @@ div #int:hover{
 /*-------------------Header------------------------*/
 
 /*-------------------Main------------------------*/
-#cohete img {
+#rocket img {
     height: 400px;
     width: 250px;
 }
 
-#cohete img:hover {
+#rocket img:hover {
     height: 500px;
     width: 300px;
 }
 
-#cohete {
+#rocket {
     text-align: center;
 
 }
 
-#contcohe {
+#contcohe    {
     height: 450px;
     box-sizing: border-box;
 }
 
-#cohete p {
+#rocket p {
     border: solid;
     border-radius: 20px;
     font-size: 20px;
 }
 
-#cohete #buttonp {
+#rocket #buttonp {
     border-radius: 20px;
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.8631827731092436) 0%, rgba(0, 0, 179, 1) 52%, rgba(0, 1, 255, 1) 100%);
@@ -258,13 +258,13 @@ div #proyecto {
 }
 
 #proyecto p {
-    height: 100px;
+    height: 150px;
     font-size: 14px;
 }
 
 #pcont {
     background-color: rgba(240, 248, 255, 0.613);
-    height: 480px;
+    height: 500px;
 }
 
 #pbotton {
@@ -368,6 +368,44 @@ h1 {
     font-weight: 400;
 
 }
+.circle {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional para darle un poco de profundidad */
+    margin: 10px; /* Espacio entre los círculos */
+}
+
+.whatsapp {
+    background-color: #25D366; /* Color de WhatsApp */
+}
+
+.email {
+    background-color: #D44638; /* Color característico de Gmail */
+}
+
+.zoom {
+    background-color: #2D8CFF; /* Color de Zoom */
+}
+
+.linkedin {
+    background-color: #0077B5; /* Color de LinkedIn */
+}
+
+.circle i {
+    color: white;
+    font-size: 50px; /* Ajusta el tamaño del icono según tus necesidades */
+}
+
+.container_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*-------------------Footer------------------------*/
