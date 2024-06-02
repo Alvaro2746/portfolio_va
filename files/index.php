@@ -20,13 +20,13 @@
         
     <div id="rocket" class="row">
         <div id="contcohe" class="col-12">
-            <a href="proyects.php"><img src="../images/rocket.svg" alt="Rocket"></a>    
+            <a href="projects.php"><img src="../images/rocket.svg" alt="Rocket"></a>    
         </div>
         <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center mb-3 offset-sm-3" id="sal">
             <p class="py-1">Welcome to my Website.</p>
         </div>
         <div>
-            <a id="buttonp" class="btn btn-primary" href="proyects.php" role="button">Check my proyects</a>
+            <a id="buttonp" class="btn btn-primary" href="projects.php" role="button">Check my projects</a>
         </div>
     </div>
 </main>
