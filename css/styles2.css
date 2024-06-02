@@ -1,4 +1,4 @@
-/*--------------------------------------------------Sobre mi-----------------------------------------------*/
+/*--------------------------------------------------Sobre me-----------------------------------------------*/
 
 /*-------------------Header------------------------*/
 
@@ -7,7 +7,8 @@
     box-sizing: content-box;
 }
 #profile img{
-    height: 80%;
+    height: 60%;
+    margin-top: 100px;
 }
 
 #int {
@@ -67,7 +68,7 @@ div #int a:hover{
     font-size: 18px;
     color: #7f7f7f;
 }
-#mi{background: fixed;
+#me{background: fixed;
     background-image: url(../images/background-4.png);
     background-size: cover;
 }
@@ -85,7 +86,7 @@ div #int a:hover{
     color: #6A6A6A;
     font-size: 14px;
 }
-#exp p, #presentacion{ 
+#exp p, #info{ 
     color: #6a6a6a;
     font-size: 18px;
 }
@@ -112,7 +113,7 @@ div #int:hover{
     color: #6A6A6A;
     font-size: 14px;
 }
-#Aca p, #presentacion{ 
+#Aca p, #info{ 
     color: #6a6a6a;
     font-size: 18px;
 }

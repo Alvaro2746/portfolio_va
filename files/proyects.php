@@ -1,7 +1,7 @@
 <?php $pag="proyects";?>
 
 <!DOCTYPE html>
-<html lang="es" class="h-100">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">

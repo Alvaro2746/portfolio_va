@@ -9,7 +9,7 @@ $body = "Cuerpo del mensaje";
 <?php $pag="contact";?>
 
 <!DOCTYPE html>
-<html lang="es" class="h-100">
+<html lang="en" class="h-100">
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
