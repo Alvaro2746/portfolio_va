@@ -1,4 +1,4 @@
-<?php $pagina="sobre-mi";?>
+<?php $pag="sobre-mi";?>
 
 <!DOCTYPE html>
 <html lang="es" class="h-100">

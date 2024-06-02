@@ -1,3 +1,8 @@
+<?php
+$email = "alvaroviyareal@gmail.com";
+$subject = 'I was checking your website';
+$body = 'I am interested on your services';
+?>
 <footer class="container mt-auto pb-2 pt-5">
 
         <div class="row">
@@ -6,10 +11,12 @@
                 <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <div id="i2" class="col-3">
-                <p>Student DePC Suite</p>
+                <p>Virtual Assistant</p>
             </div>
             <div id="i3" class="col-3">
-                <p>alvaroviyareal@gmail.com</p>
+            <a href="mailto:<?php echo $email; ?>?subject=<?php echo $subject; ?>&body=<?php echo $body; ?>"><p>alvaroviyareal@gmail.com</p></a>
+
+                
             </div>
             <div id="i4" class="col-3">
                 <div id="fix">

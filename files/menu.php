@@ -2,10 +2,10 @@
             <div class="container">
                 <div class="row">
                     <div id="nav" class="col-12 col-sm-6 p-3">
-                        <a href="index.php"><ul class="px-3" <?php echo $pagina=="inicio"? "id='navborder'":""; ?>>Inicio</ul></a>
-                        <a href="sobre-mi.php" <?php echo $pagina=="sobre-mi"? "id='navborder'":""; ?>> <ul class="px-3">Sobre mi</ul></a>
-                        <a href="proyectos.php" <?php echo $pagina=="proyectos"? "id='navborder'":""; ?>><ul class="px-3">Proyectos</ul></a>
-                        <a href="contacto.php" <?php echo $pagina=="contacto"? "id='navborder'":""; ?>><ul class="px-3" >Contacto</ul></a>
+                        <a href="index.php"><ul class="px-3" <?php echo $pag=="home"? "id='navborder'":""; ?>>Home</ul></a>
+                        <a href="about_me.php" <?php echo $pag=="about_me"? "id='navborder'":""; ?>> <ul class="px-3">About me</ul></a>
+                        <a href="proyects.php" <?php echo $pag=="proyectos"? "id='navborder'":""; ?>><ul class="px-3">Proyects</ul></a>
+                        <a href="contact.php" <?php echo $pag=="contact"? "id='navborder'":""; ?>><ul class="px-3" >Contact</ul></a>
                     </div>
                     <div id="cv" class="col-12 col-sm-6 p-4 " >
                         

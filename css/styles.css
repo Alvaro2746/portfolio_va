@@ -368,6 +368,44 @@ h1 {
     font-weight: 400;
 
 }
+.circle {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional para darle un poco de profundidad */
+    margin: 10px; /* Espacio entre los círculos */
+}
+
+.whatsapp {
+    background-color: #25D366; /* Color de WhatsApp */
+}
+
+.email {
+    background-color: #D44638; /* Color característico de Gmail */
+}
+
+.zoom {
+    background-color: #2D8CFF; /* Color de Zoom */
+}
+
+.linkedin {
+    background-color: #0077B5; /* Color de LinkedIn */
+}
+
+.circle i {
+    color: white;
+    font-size: 50px; /* Ajusta el tamaño del icono según tus necesidades */
+}
+
+.container_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*-------------------Footer------------------------*/
