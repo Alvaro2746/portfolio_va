@@ -44,7 +44,7 @@
             </div>
             <div id="pbotton" class="row">
                 <div id="vo" class="col-6">
-                    <a id="" class="btn btn-primary" target="_blank" href="../projects/abmclientes" role="button">View online</a>
+                    <a id="" class="btn btn-primary" target="_blank" href="../projects/CLIENT_MANAGEMENT" role="button">View online</a>
                 </div>
                 <div id="cf" class="col-6">
                     <a target="blank" href="https://github.com/Alvaro2746/ABMClientes">Source code</a>
