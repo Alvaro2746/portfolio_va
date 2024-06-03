@@ -1,0 +1,6 @@
+
+{
+    "rewrites": [
+        { "source": "/(.*)", "destination": "/files/index.php" }
+    ]
+}
