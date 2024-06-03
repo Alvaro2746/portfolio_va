@@ -58,7 +58,7 @@
             <h2 class="p-2">SALES MANAGEMENT SYSTEM</h2>
             <div>
                 <p>System for managing clients, products, and sales. Made with HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery, and MySQL database. <br><br>
-                Please sign in using this provitional credentials:<br>
+                Please sign in using this provisional credentials:<br>
                 User: test<br>
                 Pass: test
                 </p>
