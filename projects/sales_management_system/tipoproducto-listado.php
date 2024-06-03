@@ -37,6 +37,12 @@ include_once("header.php");
                     Eliminado correctamente.
                     </div>
                   </div>
+                  <?php elseif(isset($_GET["msg"]) && $_GET["msg"] == "permisos"): ?>
+                  <div class="col-12">
+                    <div class="alert alert-warning" role="alert">
+                    NO tienes permisos para esta accion.
+                    </div>
+                  </div>
                 <?php endif; ?>
             </div>
           <table class="table table-hover border">

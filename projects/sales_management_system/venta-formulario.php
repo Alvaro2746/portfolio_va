@@ -16,12 +16,16 @@ date_default_timezone_set("America/Bogota");
 
 if($_POST){
     if(isset($_POST["btnGuardar"])){
+        
         if(isset($_GET["id"]) && $_GET["id"] > 0){
-              //Actualizo un cliente existente
+            if($_SESSION["id"]=="1"){
+              //Actualizo un venta existente
               echo $venta -> fecha;
               $venta->actualizar();
               header("Location: venta-listado.php?msg=modificado");
-
+            }else{
+                header("Location: venta-listado.php?msg=permisos");
+            }
         } else {
             //Es nuevo
             $producto = new Producto();
@@ -42,9 +46,14 @@ if($_POST){
             }
         }
     } else if(isset($_POST["btnBorrar"])){
+        if($_SESSION["id"]=="1"){
+
         $venta->eliminar();
 
         header("Location: venta-listado.php?msg=eliminado");
+    }else{
+        header("Location: venta-listado.php?msg=permisos");
+    }
     }
 } 
 

@@ -322,36 +322,27 @@
             <div class="container">
 
 
-                <div class="row ">
-                    <div class="row col-6 p-4">
-                        <div id="icon" class="col-4 text-center pt-5 my-5">
-                            <i class="fas fa-comment-alt"></i>
+                <div class="row ">                    
+                            <div id="icon" class="col-4 text-center pt-5 my-5">
+                                <i class="fas fa-comment-alt"></i>
+                            </div>
+                            <div id="icon-2" class="col-8 pb-5  my-5 px-5 py-4">
+                                <h2>Idiomas</h2>
+                                <p>ESPAÑOL - Nativo</p>
+                                <p>INGLÉS - Intermediate B2</p>
+                                <p>Frances - Basique A2</p>
                         </div>
-                        <div id="icon-2" class="col-6 pb-5  my-5 px-5 py-4">
-                            <h2>Idiomas</h2>
-                            <p>ESPAÑOL - Nativo</p>
-                            <p>INGLÉS - Intermediate B2</p>
-                            <p>Frances - Basique A2</p>
-                        </div>
+
+                            <div id="icon" class="col-4 text-center pt-5 my-5 ">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div id="icon-2" class="col-8 pt-1 my-5 px-5 pt-4">
+                            <h2>Hobbies</h2>
+                            <p>Dance</p>
+                            <p>Languages</p>
                     </div>
-
-                    <div class="row col-6 p-4">
-                        <div id="icon" class="col-4 text-center pt-5 my-5 ">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div id="icon-2" class="col-8 pt-1 my-5 px-5 pt-4">
-                        <h2>Hobbies</h2>
-                        <p>Dance</p>
-                        <p>Languages</p>
-                        </div>
-                    </div>
-
-                
-
                 </div>
-
             </div>
-
         </div>
 
 

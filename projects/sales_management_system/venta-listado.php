@@ -37,6 +37,12 @@ include_once("header.php");
                     Venta eliminada.
                     </div>
                   </div>
+                  <?php elseif(isset($_GET["msg"]) && $_GET["msg"] == "permisos"): ?>
+                    <div class="col-12">
+                    <div class="alert alert-warning" role="permisos">
+                    NO tienes permisos para esta accion.
+                    </div>
+                  </div>
                 <?php endif; ?>
           <table class="table table-hover border">
             <tr>

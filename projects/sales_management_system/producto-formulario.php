@@ -16,7 +16,7 @@ $productoaux->cargarFormulario($_REQUEST);
 
 
 if($_POST){
-
+    if($_SESSION["id"]=="1"){
     if(isset($_POST["btnGuardar"])){
         if(isset($_GET["id"]) && $_GET["id"] > 0){
             $productoaux->obtenerPorId();
@@ -112,9 +112,16 @@ if($_POST){
         
         $producto->eliminar();
         
-        header("Location: producto-listado.php?msg=eliminado");
+        
     }
-} else if(isset($_REQUEST["id"])){
+
+}
+else{
+    header("Location: producto-listado.php?msg=permisos");
+}
+}
+if(isset($_REQUEST["id"])){
+
     $producto->obtenerPorId();
 
 }

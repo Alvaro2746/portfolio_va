@@ -19,6 +19,9 @@ if(isset($_GET["msg"]))
   }elseif($_GET["msg"]=="eliminado"){
     $msg["texto"] = "Eliminado correctamente";
     $msg["codigo"] = "alert-warning";
+  }elseif($_GET["msg"]=="permisos"){
+    $msg["texto"] = "NO tienes permisos para esta accion";
+    $msg["codigo"] = "alert-warning";
   }
 }
 

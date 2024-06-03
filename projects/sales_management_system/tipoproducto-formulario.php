@@ -8,6 +8,8 @@ $tipoProducto = new TipoProducto();
 $tipoProducto->cargarFormulario($_REQUEST);
 
 if($_POST){
+    if($_SESSION["id"]=="1"){
+
     if(isset($_POST["btnGuardar"])){
         if(isset($_GET["id"]) && $_GET["id"] > 0){
               //Actualizo un  registro existente
@@ -22,7 +24,13 @@ if($_POST){
         $tipoProducto->eliminar();
         header("Location: tipoproducto-listado.php?msg=eliminado");
     }
-} else if(isset($_GET["id"]) && $_GET["id"] >= 0){
+} else {
+    header("Location: tipoproducto-listado.php?msg=permisos");
+
+}
+}
+
+if(isset($_GET["id"]) && $_GET["id"] >= 0){
     $tipoProducto->obtenerPorId();
 }
 

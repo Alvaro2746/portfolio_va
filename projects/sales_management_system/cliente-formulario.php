@@ -12,7 +12,9 @@ $cliente->cargarFormulario($_REQUEST);
 
 $pg = "Listado de clientes";
 
+
 if ($_POST) {
+    if($_SESSION["id"]=="1"){
     if (isset($_POST["btnGuardar"])) {
         if (isset($_GET["id"]) && $_GET["id"] > 0) {
             //Actualizo un cliente existente
@@ -48,8 +50,12 @@ if ($_POST) {
         
         // }
     }
-}
+}else{
+    $msg["texto"] = "NO tienes permisos para esta accion";
+    $msg["codigo"] = "alert-warning";
 
+}
+}
 if (isset($_GET["do"]) && $_GET["do"] == "buscarLocalidad" && $_GET["id"] && $_GET["id"] > 0) {
     $idProvincia = $_GET["id"];
     $localidad = new Localidad();

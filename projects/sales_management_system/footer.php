@@ -1,11 +1,7 @@
 
       <!-- Footer -->
       <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span><a href="https://depcsuite.com" target="_blank">Patrocinado por DePC Suite</a></span>
-          </div>
-        </div>
+        
       </footer>
       <!-- End of Footer -->
 

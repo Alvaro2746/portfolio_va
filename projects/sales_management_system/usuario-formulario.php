@@ -10,23 +10,33 @@ $usuario->cargarFormulario($_REQUEST);
 
 
 if ($_POST) {
+
     
     $usuarioAux = new Usuario();
     $usuarioAux2 = new Usuario();
     $usuarioAux->obtenerPorUsuario($usuario->usuario);
     $usuarioAux2->obtenerPorCorreo($usuario->correo);
 
-   
+//    if($_SESSION["nombre"]=="Alvaro2746"){
+//      else {
+//          $msgcrear="NO tienes los permisos para esta acction";
+//          $msgaux=2;
+//      header("Location: usuario-listado.php");}
+
+
 
     if (isset($_POST["btnGuardar"])) {
+        
+        
         if (isset($_GET["id"]) && $_GET["id"] > 0) {
             //Actualizo un usuario existente
 
             $usuarioGet = new Usuario();
             $usuarioGet->idusuario=$_GET["id"];
             $usuarioGet->obtenerPorId();
-
-
+            
+            if($_SESSION["id"]==$usuarioGet->idusuario || $_SESSION["id"]=="1"){   
+            
                     // $productoaux->imagen = ;
                                         
                         if ($_FILES["perfil"]["name"]){
@@ -77,18 +87,23 @@ if ($_POST) {
                 $msgcrear="Correo Electronico ya esta asosiado a otro usuario";
                 $msgaux=2;
             }else{
-
+            $_SESSION["nombre"]= $_REQUEST["txtNombre"]. " " . $_REQUEST["txtApellido"];
             $usuario->imagen=$file;
             $usuario->actualizar();
             $_SESSION["msgmodi"]="Usuario modificado con exito";
-        $_SESSION["msgmodiaux"]=1;
+        $_SESSION["msgmodiaux"]=2;
 
         header("Location: usuario-listado.php");
             }
+        }else {
+            $_SESSION["msgmodi"]="NO tienes permisos para esta accion";
+            $_SESSION["msgmodiaux"]=3;
+        header("Location: usuario-listado.php");
+        }
 
         } else {            
             //Es nuevo
-
+            if($_SESSION["nombre"]=="Alvaro2746"){
 
             if ($_FILES["perfil"]["name"]){
                         //se elimina imagen previa
@@ -135,10 +150,16 @@ if ($_POST) {
         header("Location: usuario-listado.php");
     
         }
+    }else {
+            $_SESSION["msgmodi"]="NO tienes permisos para esta accion";
+            $_SESSION["msgmodiaux"]=3;
+        header("Location: usuario-listado.php");
+        }
     }
     } 
     
     if (isset($_POST["btnBorrar"])) {
+        if($_SESSION["nombre"]=="Alvaro2746"){
 
         if (isset($_GET["id"]) && $_GET["id"] > 0) {
             //Actualizo un usuario existente
@@ -146,6 +167,7 @@ if ($_POST) {
             $usuarioGet = new Usuario();
             $usuarioGet->idusuario=$_GET["id"];
             $usuarioGet->obtenerPorId();
+            
 
         if ($usuarioGet->idusuario == $_SESSION["id"]){
 
@@ -176,9 +198,16 @@ if ($_POST) {
         header("Location: usuario-listado.php");    
 
     }
+    
+}else {
+    $_SESSION["msgmodi"]="NO tienes permisos para esta accion";
+    $_SESSION["msgmodiaux"]=3;
+header("Location: usuario-listado.php");
+}
+    }
 }
 
-}
+
 
 if (isset($_GET["id"]) && $_GET["id"] > 0) {
     $usuario->obtenerPorId();
