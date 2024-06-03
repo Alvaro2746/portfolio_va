@@ -68,7 +68,7 @@
                     <a id="" class="btn btn-primary" target="_blank" href="../projects/sales_management_system/login.php" role="button">View online</a>
                 </div>
                 <div id="cf" class="col-6">
-                    <a href="" target="_blank">Source code</a>
+                    <a href="https://github.com/Alvaro2746/SALES-MANAGEMENT-SYSTEM" target="_blank">Source code</a>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                 <a id="" class="btn btn-primary" target="_blank" href="../projects/task_organizer" role="button">View online</a>
             </div>
             <div id="cf" class="col-6">
-                <a href="">Source code</a>
+                <a href="https://github.com/Alvaro2746/task-organizer">Source code</a>
             </div>
         </div>
     </div>
