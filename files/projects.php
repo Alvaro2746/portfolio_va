@@ -75,8 +75,8 @@
     </div>
     <div id="proyecto" class="col-12 col-md-4 p-3">
     <div class="p-3" id="pcont">
-        <img src="../images/task.png" class="img-fluid" alt="INTEGRATIVE PROJECT">
-        <h2 class="p-2">task_organizer</h2>
+        <img src="../images/task.png" class="img-fluid" alt="TASK ORGANIZER">
+        <h2 class="p-2">TASK ORGANIZER</h2>
         <p>Addition, deletion, and modification of tasks per user, urgency and status. Made with HTML, CSS, PHP, Bootstrap, and JSON.</p>
         <div id="pbotton" class="row">
             <div id="vo" class="col-6">
@@ -91,7 +91,7 @@
 <div class="row">
 <div id="proyecto" class="col-12 col-md-4 p-3">
     <div class="p-3" id="pcont">
-        <img src="../images/cv_picture.png" class="img-fluid" alt="INTEGRATIVE PROJECT">
+        <img src="../images/cv_picture.png" class="img-fluid" alt="CV Website">
         <h2 class="p-2">CV Website</h2>
         <p>Full Stack project developed in PHP to showcase my skills, education and experience graphically, allowing contact with new clients and showing all my projects and social network.</p>
         <div id="pbotton" class="row">

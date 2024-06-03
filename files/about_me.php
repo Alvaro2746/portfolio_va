@@ -342,7 +342,7 @@
                         <div id="icon-2" class="col-8 pt-1 my-5 px-5 pt-4">
                         <h2>Hobbies</h2>
                         <p>Dance</p>
-                        <p>languages</p>
+                        <p>Languages</p>
                         </div>
                     </div>
 
