@@ -1,5 +1,5 @@
 <?php
-$email = "alvaroviyareal@gmail.com";
+$email = "alvarovillarreal2746@hotmail.com";
 $subject = 'I was checking your website';
 $body = 'I am interested on your services';
 ?>
@@ -13,12 +13,12 @@ $body = 'I am interested on your services';
             <div id="i2" class="col-3">
                 <p>Virtual Assistant</p>
             </div>
-            <div id="i3" class="col-3">
-            <a href="mailto:<?php echo $email; ?>?subject=<?php echo $subject; ?>&body=<?php echo $body; ?>"><p>alvaroviyareal@gmail.com</p></a>
+            <div id="i3" class="col-3 d-none d-sm-block">
+            <a href="mailto:<?php echo $email; ?>?subject=<?php echo $subject; ?>&body=<?php echo $body; ?>"><p>alvarovillarreal2746@hotmail.com</p></a>
 
                 
             </div>
-            <div id="i4" class="col-3">
+            <div id="i4" class="col-3 col-sm-3 ">
                 <div id="fix">
                     <a href="https://api.whatsapp.com/send?phone=573184559655" target="_blank"><i
                             class="fa-brands fa-whatsapp"></i></a>

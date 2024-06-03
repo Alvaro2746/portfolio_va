@@ -9,7 +9,7 @@
     <title>projects</title>
     <link rel="stylesheet" href="../css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="../css/styles2.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 </head>
 
@@ -58,7 +58,7 @@
             <h2 class="p-2">SALES MANAGEMENT SYSTEM</h2>
             <div>
                 <p>System for managing clients, products, and sales. Made with HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery, and MySQL database. <br><br>
-                Please access using this provitional credentials:<br>
+                Please sign in using this provitional credentials:<br>
                 User: test<br>
                 Pass: test
                 </p>

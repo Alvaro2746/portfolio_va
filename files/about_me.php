@@ -1,4 +1,4 @@
-<?php $pag="sobre-mi";?>
+<?php $pag="about_me";?>
 
 <!DOCTYPE html>
 <html lang="en" class="h-100">
@@ -9,7 +9,7 @@
     <title>About me</title>
     <link rel="stylesheet" href="../css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="../css/styles2.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 </head>
 
@@ -37,12 +37,12 @@
                 </div>
 
 
-                <div id="profile" class="col-3 col-sm-3 px-5 my-4 mx-auto">
-                    <img src="../images/Profile.jpg" class="img-fluid rounded-circle" alt="">
+                <div id="profile" class="col-12 col-sm-3 mx-auto">
+                    <img src="../images/ProfileAM.jpg" class="img-fluid rounded-circle" alt="">
                 </div>
 
-                <div class="col-3 col-sm-6 my-4 d-block d-sm-none">
-                    <a id="int" class="btn btn-primary" href="contact.html" role="button">text me</a>
+                <div class="col-12 col-sm-6 my-4 d-block d-sm-none">
+                    <a id="int" class="btn btn-primary" href="contact.php" role="button">text me</a>
                 </div>
             </div>
         </div>
@@ -327,7 +327,7 @@
                         <div id="icon" class="col-4 text-center pt-5 my-5">
                             <i class="fas fa-comment-alt"></i>
                         </div>
-                        <div id="icon-2" class="col-8 pb-5  my-5 px-5 py-4">
+                        <div id="icon-2" class="col-6 pb-5  my-5 px-5 py-4">
                             <h2>Idiomas</h2>
                             <p>ESPAÑOL - Nativo</p>
                             <p>INGLÉS - Intermediate B2</p>
