@@ -1,4 +1,5 @@
-<?php $pag="home";?>
+<?php $pag="home";
+?>
 
 <!DOCTYPE html>
 <html lang="en" class="h-100">
