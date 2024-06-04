@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
-    <link rel="stylesheet" href="../css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 </head>
 
 <body id="me" class="d-flex flex-column h-100">
@@ -38,7 +38,7 @@
 
 
                 <div id="profile" class="col-12 col-sm-3 mx-auto">
-                    <img src="../images/ProfileAM.jpg" class="img-fluid rounded-circle" alt="">
+                    <img src="images/ProfileAM.jpg" class="img-fluid rounded-circle" alt="">
                 </div>
 
                 <div class="col-12 col-sm-6 my-4 d-block d-sm-none">
@@ -228,7 +228,7 @@
             </div>
             <div id="exp" class="row rounded shadow px-2 py-3">
                 <div class="col-2 d-none d-sm-block text-center my-auto">
-                    <img src="../images/WH.png" alt="WH">
+                    <img src="images/WH.png" alt="WH">
                 </div>
                 <div class="col-12 col-sm-10 my-4">
     <h2>Bilingual Agent</h2>
@@ -237,7 +237,7 @@
     <p>Customer service agent for a major U.S. financial institution, providing 100% English support for incident reporting, technical service, and managing mass outages.</p>
 </div>
 <div class="col-2 d-none d-sm-block text-center my-auto">
-    <img src="../images/TP.png" alt="TP">
+    <img src="images/TP.png" alt="TP">
 </div>
 <div class="col-12 col-sm-10 my-4">
     <h2>Customer Service Agent</h2>
@@ -246,7 +246,7 @@
     <p>Handling calls and managing social media for customer service of a major telecom company in Panama, providing technical support, service-desk escalations, and billing management.</p>
 </div>
 <div class="col-2 d-none d-sm-block text-center my-auto">
-    <img src="../images/Avon.png" alt="Avon">
+    <img src="images/Avon.png" alt="Avon">
 </div>
 <div class="col-12 col-sm-10 my-4">
     <h2>Technical Support Agent</h2>
@@ -262,7 +262,7 @@
 </div>
 <div id="Aca" class="row rounded shadow px-2 py-3">
     <div class="col-2 d-none d-sm-block text-center my-auto">
-        <img src="../images/MD.png" alt="MD">
+        <img src="images/MD.png" alt="MD">
     </div>
     <div class="col-12 col-sm-4 my-4">
         <h2>Technologist in Network Communication Management</h2>
@@ -271,7 +271,7 @@
         <p>https://www.uniminuto.edu/</p>
     </div>
     <div class="col-2 d-none d-sm-block text-center my-auto">
-        <img src="../images/MD.png" alt="MD">
+        <img src="images/MD.png" alt="MD">
     </div>
     <div class="col-12 col-sm-4 my-4">
         <h2>Diploma in Cybersecurity</h2>
@@ -281,7 +281,7 @@
     </div>
 
     <div class="col-2 d-none d-sm-block text-center my-auto">
-        <img src="../images/Politecnico.png" alt="PSC">
+        <img src="images/Politecnico.png" alt="PSC">
     </div>
     <div class="col-12 col-sm-4 my-4">
         <h2>Diploma in Customer Service</h2>
@@ -290,7 +290,7 @@
         <p>https://www.politecnicosuperior.edu.co/</p>
     </div>
     <div class="col-2 d-none d-sm-block text-center my-auto">
-        <img src="../images/MD.png" alt="MD">
+        <img src="images/MD.png" alt="MD">
     </div>
     <div class="col-12 col-sm-4 my-4">
         <h2>Software Development Engineering</h2>
@@ -299,7 +299,7 @@
         <p>https://www.uniminuto.edu/</p>
     </div>
     <div class="col-2 d-none d-sm-block text-center my-auto">
-        <img src="../images/logo-depcsuite.svg" alt="DePC">
+        <img src="images/logo-depcsuite.svg" alt="DePC">
     </div>
     <div class="col-12 col-sm-4 my-4">
         <h2>Software development course</h2>
@@ -308,7 +308,7 @@
         <p>https://depcsuite.com/</p>
     </div>
     <div class="col-2 d-none d-sm-block text-center my-auto">
-        <img src="../images/E4CC.png" alt="DePC">
+        <img src="images/E4CC.png" alt="DePC">
     </div>
     <div class="col-12 col-sm-4 my-4">
         <h2>Advanced English Course</h2>
