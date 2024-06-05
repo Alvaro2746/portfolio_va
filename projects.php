@@ -9,7 +9,8 @@
     <title>projects</title>
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/test.css">
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 </head>
 
@@ -18,7 +19,8 @@
         <?php include_once("menu.php"); ?>
 
     </header>
-    <main class="container">
+
+<main class="container">
 
     <div class="row">
     <div class="col-12 py-4">
@@ -31,10 +33,7 @@
 
 
     <div class="row">
-
-        
-
-        <div class="contenedor m-4">
+        <div class="m-4 contpr" >
             <div class="p-3 " id="pcont">
                 <figure>
                     <img src="images/abmclientes.png" alt="ABM CLIENTES">
@@ -56,7 +55,7 @@
             </div>
         </div>
 
-        <div class="contenedor m-4">
+        <div class="m-4 contpr" >
             <div class="p-3" id="pcont">
                 <figure>
                     <img src="images/abmventas.png" alt="SALES MANAGEMENT SYSTEM">
@@ -81,7 +80,7 @@
             </div>
         </div>
 
-        <div class="contenedor m-4">
+        <div class="m-4 contpr" >
             <div class="p-3" id="pcont">
                 <figure>
                     <img src="images/task.png" alt="TASK ORGANIZER">
@@ -105,7 +104,7 @@
     
 <div class="row">
 
-<div class="contenedor m-4">
+<div class="m-4 contpr" >
             <div class="p-3" id="pcont">
                 <figure>
                     <img src="images/cv_picture.png" alt="CV Website">
