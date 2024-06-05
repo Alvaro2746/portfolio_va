@@ -29,12 +29,12 @@ if(isset($_GET["eliminar"]) && isset($_GET["eliminar"])>=0){
         $jsontarea=json_encode($aTareas);
         file_put_contents("tareas.txt", $jsontarea); 
 
-        header("location: gestor_de_tareas.php");
+        header("location: ../task_organizer");
          
 }
 if(isset($_GET["cancelar"])){
     unset($_SESSION["aTareas"]);
-    header("location: gestor_de_tareas.php");
+    header("location: ../task_organizer");
 
 }
 
@@ -58,7 +58,7 @@ if ($_POST){
     $jsontarea=json_encode($aTareas);
     
     file_put_contents("tareas.txt", $jsontarea);
-    header("location: gestor_de_tareas.php");
+    header("location: ../task_organizer");
 
     }else{
         $fecha= date("d/m/Y");
@@ -76,7 +76,7 @@ if ($_POST){
     $jsontarea=json_encode($aTareas);
     
     file_put_contents("tareas.txt", $jsontarea);
-    header("location: gestor_de_tareas.php");
+    header("location: ../task_organizer");
     }
 }
 
@@ -95,7 +95,7 @@ if ($_POST){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="https://kit.fontawesome.com/91c8aed633.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -183,8 +183,7 @@ if ($_POST){
 
                     <td><a href="?editar=<?php echo $pos; ?>"><button type="button" class="btn btn-secondary"><i
                                     class="fa-solid fa-pen-to-square"></i></button></a>
-                        <a href="?eliminar=<?php echo $pos;?>"><button type="button" class="btn btn-danger"><i
-                                    class="fa-solid fa-trash"></i></button></a>
+                        <a href="?eliminar=<?php echo $pos;?>"><button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></a>
                     </td>
 
                 </tr>
