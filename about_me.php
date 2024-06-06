@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
+
+
 </head>
 
 <body id="me" class="d-flex flex-column h-100">
@@ -24,21 +26,23 @@
 
             <div class="row">
                 <div class=" col-12 col-sm-6">
-                    <h1>About me</h1>
-                    <p id="info" class="my-5">I am a technologist in network communication management with over 3 years of experience in customer service and one year in the IT field solving technical problems with computer equipment. I possess extensive knowledge in web development tools, having developed my resume website myself. Additionally, I hold a diploma in cybersecurity.</p>
-                    <p id="info" class="my-5">I am detail-oriented and solution-focused, with strong teamwork skills and a strong achievement orientation. My English level is C1, which allows me to communicate effectively in a professional environment.</p>
-                    <p id="info" class="my-5">My experience in customer service, combined with my technical skills and my ability to develop and maintain websites, makes me an ideal candidate for virtual assistant roles. I am committed to providing high-quality service and finding efficient solutions to any problems that may arise.</p>
+                            <h1>About me</h1>
+                            <p id="info" class="my-5">I am a technologist in network communication management with over 3 years of experience in customer service and one year in the IT field solving technical problems with computer equipment. I possess extensive knowledge in web development tools, having developed my resume website myself. Additionally, I hold a diploma in cybersecurity.</p>
+                            <p id="info" class="my-5">I am detail-oriented and solution-focused, with strong teamwork skills and a strong achievement orientation. My English level is C1, which allows me to communicate effectively in a professional environment.</p>
+                            <p id="info" class="my-5">My experience in customer service, combined with my technical skills and my ability to develop and maintain websites, makes me an ideal candidate for virtual assistant roles. I am committed to providing high-quality service and finding efficient solutions to any problems that may arise.</p>
 
 
 
-                    <div class="col-12 col-sm-6 my-4 d-none d-sm-block">
-                        <a id="int" class="btn btn-primary" href="contact.php" role="button">text me</a>
-                    </div>
+                            <div class="col-12 col-sm-6 my-4 d-none d-sm-block">
+                                <a id="int" class="btn btn-primary" href="contact.php" role="button">text me</a>
+                            </div>
                 </div>
 
 
                 <div id="profile" class="col-12 col-sm-3 mx-auto">
-                    <img src="images/ProfileAM.jpg" class="img-fluid rounded-circle" alt="">
+                    <figure class="hero_figure profileP">
+                        <img src="images/ProfileAM.jpg" class="img-fluid rounded-circle hero_img unset" alt="Profile" data-animation="fade">
+                    </figure>
                 </div>
 
                 <div class="col-12 col-sm-6 my-4 d-block d-sm-none">
@@ -349,6 +353,7 @@
 
     </main>
     <?php include_once("footer.php"); ?>
+    <script src="./main.js"></script>
 
 </body>
 

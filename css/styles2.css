@@ -178,6 +178,39 @@ div #int:hover{
     height: 5px;
 }
 
+[data-animation="fade"]{
+    opacity: 0;
+    transform: translate(100%);
+    transition: .6 ease-in .3;
+
+    --opacity: 1;
+    --transform: translate(0) ;
+
+}
+[data-animation="show"]{
+    opacity: 0;
+    transform: scale(0%);
+    transition: .6 ease-in .3;
+
+    --opacity: 1;
+    --transform: scale(1) ;
+
+}
+[data-animation="up"]{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: .6 ease-in .3;
+
+    --opacity: 1;
+    --transform: translateY(0) ;
+
+}
+.unset{
+    opacity: var(--opacity);
+    transform: var(--transform);
+}
+
+
 /*-------------------Footer------------------------*/
 
 /*-------------------Addition------------------------*/
