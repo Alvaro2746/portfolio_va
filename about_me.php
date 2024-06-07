@@ -9,7 +9,7 @@
     <title>About me</title>
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles2.css">
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 
 
@@ -17,12 +17,11 @@
 
 <body id="me" class="d-flex flex-column h-100">
     <header>
-    <nav>
     <?php include_once("menu.php"); ?>
 
     </header>
     <main>
-        <div class="container">
+        <div class="container top">
 
             <div class="row">
                 <div class=" col-12 col-sm-6">

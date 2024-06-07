@@ -20,7 +20,7 @@
 
     </header>
 
-<main class="container">
+<main class="container top">
 
     <div class="row">
     <div class="col-12 py-4">
@@ -33,7 +33,7 @@
 
 
     <div class="row">
-        <div class="m-4 contpr" >
+        <div class="m-4 contpr" id="contpr" >
             <div class="p-3 " id="pcont">
                 <figure>
                     <img src="images/abmclientes.png" alt="ABM CLIENTES">
@@ -55,7 +55,7 @@
             </div>
         </div>
 
-        <div class="m-4 contpr" >
+        <div class="m-4 contpr" id="contpr" >
             <div class="p-3" id="pcont">
                 <figure>
                     <img src="images/abmventas.png" alt="SALES MANAGEMENT SYSTEM">
@@ -80,7 +80,7 @@
             </div>
         </div>
 
-        <div class="m-4 contpr" >
+        <div class="m-4 contpr" id="contpr" >
             <div class="p-3" id="pcont">
                 <figure>
                     <img src="images/task.png" alt="TASK ORGANIZER">
@@ -104,7 +104,7 @@
     
 <div class="row">
 
-<div class="m-4 contpr" >
+<div class="m-4 contpr" id="contpr" >
             <div class="p-3" id="pcont">
                 <figure>
                     <img src="images/cv_picture.png" alt="CV Website">

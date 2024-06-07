@@ -1,17 +1,39 @@
 /*--------------------------------------------------About me-----------------------------------------------*/
 
 /*-------------------Header------------------------*/
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+    background: rgb(2,0,36);
+    height: 80px;
+}
+header.down{
+    background: rgba(0, 213, 255, 0);
+    transition: 0.7s;
+}
+
+header.down nav a{
+    transition: 0.7s;
+
+    color: #000000;
+}
 
 /*-------------------Main------------------------*/
 
-  
+.top{
+    margin-top: 100px;
+} 
 #profile{
     box-sizing: content-box;
 }
 #profile img{
-    height: 50%;
+    height: 100%;
     width: 100%;
-    margin-top: 110px;
 }
 
 #int {
@@ -178,6 +200,46 @@ div #int:hover{
     height: 5px;
 }
 
+[data-animation="fade"] {
+    opacity: 0;
+    transform: translate(100%);
+    transition: .6s ease-in .3s;
+
+    --opacity: 1;
+    --transform: translate(0) ;
+}
+
+[data-animation="show"]{
+    opacity: 0;
+    transform: scale(0%);
+    transition: .6s ease-in .3s;
+
+    --opacity: 1;
+    --transform: scale(1) ;
+
+}
+[data-animation="up"]{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: .6s ease-in .3s;
+
+    --opacity: 1;
+    --transform: translateY(0) ;
+
+}
+.unset{
+    opacity: var(--opacity);
+    transform: var(--transform);
+}
+.profileP {
+    width: 160%;
+    height: 65%;
+    margin-top: 100px;
+
+}
+
+
+
 /*-------------------Footer------------------------*/
 
 /*-------------------Addition------------------------*/
@@ -293,11 +355,11 @@ div #cont1 {
 }
 
 
-.contenedor{
+#contpr{
     width: 350px;
     height: 100%;
 }
-.contenedor figure{
+#contpr figure{
     position: relative;
     height: 250px;
     width: 350px;
@@ -306,12 +368,12 @@ div #cont1 {
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-.contenedor figure img{
+#contpr figure img{
     width: 100%;
     height: 100%;
     transition: all 500ms ease-out;
 }
-.contenedor figure .capa{
+#contpr figure .capa{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -321,7 +383,7 @@ div #cont1 {
     visibility: hidden;
     text-align: center;
 }
-.contenedor figure:hover > .capa{
+#contpr figure:hover > .capa{
     opacity: 1;
     visibility: visible;
 }
@@ -365,7 +427,7 @@ h2 {
 }
 
 nav a {
-    color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: bold;
 }
@@ -376,8 +438,6 @@ nav ul {
 }
 
 #nav {
-    text-align: center;
-    padding: 100px;
 
 }
 
@@ -397,7 +457,10 @@ div #cv a {
 div #cv a:hover{
     background-color: rgb(0, 0, 63);
 }
-
+.menu{
+    width: 100%;
+    text-align: left;
+}
 
 /*-------------------Main------------------------*/
 #send {
