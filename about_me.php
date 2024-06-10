@@ -24,23 +24,42 @@
         <div class="container top">
 
             <div class="row">
-                <div class=" col-12 col-sm-6">
-                            <h1>About me</h1>
-                            <p id="info" class="my-5">I am a technologist in network communication management with over 3 years of experience in customer service and one year in the IT field solving technical problems with computer equipment. I possess extensive knowledge in web development tools, having developed my resume website myself. Additionally, I hold a diploma in cybersecurity.</p>
-                            <p id="info" class="my-5">I am detail-oriented and solution-focused, with strong teamwork skills and a strong achievement orientation. My English level is C1, which allows me to communicate effectively in a professional environment.</p>
-                            <p id="info" class="my-5">My experience in customer service, combined with my technical skills and my ability to develop and maintain websites, makes me an ideal candidate for virtual assistant roles. I am committed to providing high-quality service and finding efficient solutions to any problems that may arise.</p>
+                <div class=" col-12 col-sm-6 ">
 
 
-
-                            <div class="col-12 col-sm-6 my-4 d-none d-sm-block">
-                                <a id="int" class="btn btn-primary" href="contact.php" role="button">text me</a>
+                            <div class="text_ani">
+                                <div data-animation="show">
+                                    <h1>About me</h1>
+                                </div>
+                            </div>
+                            <div class="text_ani">
+                                <div data-animation="show">
+                                    <p  id="info" class="my-5">I am a technologist in network communication management with over 3 years of experience in customer service and one year in the IT field solving technical problems with computer equipment. I possess extensive knowledge in web development tools, having developed my resume website myself. Additionally, I hold a diploma in cybersecurity.</p>
+                                </div>
+                            </div>
+                            <div class="text_ani">
+                                <div data-animation="show">
+                                    <p  id="info" class="my-5">I am detail-oriented and solution-focused, with strong teamwork skills and a strong achievement orientation. My English level is C1, which allows me to communicate effectively in a professional environment.</p>
+                                </div>
+                            </div>
+                            <div class="text_ani">
+                                <div data-animation="show">
+                                    <p id="info" class="my-5">My experience in customer service, combined with my technical skills and my ability to develop and maintain websites, makes me an ideal candidate for virtual assistant roles. I am committed to providing high-quality service and finding efficient solutions to any problems that may arise.</p>
+                                </div>
+                            </div>
+                            <div class="text_ani">
+                                <div data-animation="show">
+                                    <div class="col-12 col-sm-6 my-4 d-none d-sm-block">
+                                        <a id="int" class="btn btn-primary" href="contact.php" role="button">text me</a>
+                                    </div>
+                                </div>
                             </div>
                 </div>
 
 
                 <div id="profile" class="col-12 col-sm-3 mx-auto">
                     <figure class="hero_figure profileP">
-                        <img src="images/ProfileAM.jpg" class="img-fluid rounded-circle hero_img unset" alt="Profile" data-animation="fade">
+                        <img src="images/ProfileAM.jpg" class="img-fluid rounded-circle hero_img" alt="Profile" data-animation="show">
                     </figure>
                 </div>
 
@@ -55,169 +74,212 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-12 my-5">
-                        <h2>technology Stack</h2>
-                    </div>
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Javascript</p>
+                            
+                            <div class="text_ani">
+                                <div data-animation="up">
+                                    <div class="col-12 my-5">
+                                        <h2>Technology Stack</h2>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <i class="fa-brands fa-square-js pb-5"></i>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>PHP</p>
-                                <i class="fa-brands fa-php pb-5"></i>
-                            </div>
-                        </div>
+                            <div class="text_ani col-6 col-sm-12 text-center p-3">
+                                <div data-animation="up">
+                                    <div class="row">
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>Javascript</p>
+                                            </div>
+                                            <div>
+                                                <i class="fa-brands fa-square-js pb-5"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>PHP</p>
+                                                <i class="fa-brands fa-php pb-5"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>HTML</p>
+                                                <i class="fa-brands fa-html5 pb-5"></i>
+                                            </div>
+                                        </div>
 
-                    </div>
+                                    </div>
 
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>HTML</p>
-                                <i class="fa-brands fa-html5 pb-5"></i>
-                            </div>
-                        </div>
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>Zoom</p>
+                                                <i class="fa-solid fa-video pb-5"></i>
+                                            </div>
+                                        </div>
 
-                    </div>
+                                    </div>
 
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Zoom</p>
-                                <i class="fa-solid fa-video pb-5"></i>
-                            </div>
-                        </div>
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>Laravel</p>
+                                                <i class="fa-brands fa-laravel pb-5"></i>
+                                            </div>
+                                        </div>
 
-                    </div>
+                                    </div>
 
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Laravel</p>
-                                <i class="fa-brands fa-laravel pb-5"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-6 col-sm-2 border-circle text-center p-3 ">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Bootstrap</p>
-                                <i class="fa-brands fa-bootstrap pb-5"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>MySQL</p>
-                                <i class="fa-solid fa-database pb-5"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>CSS</p>
-                                <i class="fa-brands fa-css3-alt pb-5"></i>
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3 ">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>Bootstrap</p>
+                                                <i class="fa-brands fa-bootstrap pb-5"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Git</p>
-                                <i class="fa-brands fa-git pb-5"></i>
+                            <div class="text_ani col-6 col-sm-12 text-center p-3">
+                                <div data-animation="up">
+                                    <div class="row">
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                
+                                <div id="tecnologias" class="rounded">
+                                    <div class="pt-4">
+                                        <p>MySQL</p>
+                                        <i class="fa-solid fa-database pb-5"></i>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
 
-                    </div>
+                            <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                <div id="tecnologias" class="rounded">
+                                    <div class="pt-4">
+                                        <p>CSS</p>
+                                        <i class="fa-brands fa-css3-alt pb-5"></i>
+                                    </div>
+                                </div>
 
-
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>React.js</p>
-                                <i class="fa-brands fa-react pb-5"></i>
                             </div>
-                        </div>
 
-                    </div>
+                            <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                <div id="tecnologias" class="rounded">
+                                    <div class="pt-4">
+                                        <p>Git</p>
+                                        <i class="fa-brands fa-git pb-5"></i>
+                                    </div>
+                                </div>
 
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Mercadopago</p>
-                                <i class="fa-solid fa-wallet pb-5"></i>
                             </div>
-                        </div>
 
-                    </div>
 
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Canva</p>
-                                <i class="fa-solid fa-wand-magic-sparkles pb-5"></i>
+                            <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                <div id="tecnologias" class="rounded">
+                                    <div class="pt-4">
+                                        <p>React.js</p>
+                                        <i class="fa-brands fa-react pb-5"></i>
+                                    </div>
+                                </div>
+
                             </div>
-                        </div>
 
-                    </div>
+                            <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                <div id="tecnologias" class="rounded">
+                                    <div class="pt-4">
+                                        <p>Mercadopago</p>
+                                        <i class="fa-solid fa-wallet pb-5"></i>
+                                    </div>
+                                </div>
 
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>LastPass</p>
-                                <i class="fa-solid fa-ellipsis pb-5"></i>
                             </div>
-                        </div>
 
-                    </div>
-
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Trello</p>
-                                <i class="fa-brands fa-trello pb-5"></i>                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Paypal</p>
-                                <i class="fa-brands fa-paypal pb-5"></i>
+                            <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                <div id="tecnologias" class="rounded">
+                                    <div class="pt-4">
+                                        <p>Canva</p>
+                                        <i class="fa-solid fa-wand-magic-sparkles pb-5"></i>
+                                    </div>
+                                </div>
+                                
                             </div>
-                        </div>
 
+                            
+                        </div>
+                        
                     </div>
-                    <div class="col-6 col-sm-2 border-circle text-center p-3">
-                        <div id="tecnologias" class="rounded">
-                            <div class="pt-4">
-                                <p>Calendly</p>
-                                <i class="fa-solid fa-calendar-days pb-5"></i>
+                    
+                </div>
+                <div class="text_ani col-6 col-sm-12 text-center p-3">
+                                <div data-animation="up">
+                                    <div class="row">
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>Javascript</p>
+                                            </div>
+                                            <div>
+                                                <i class="fa-brands fa-square-js pb-5"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>PHP</p>
+                                                <i class="fa-brands fa-php pb-5"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>HTML</p>
+                                                <i class="fa-brands fa-html5 pb-5"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>Zoom</p>
+                                                <i class="fa-solid fa-video pb-5"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>Laravel</p>
+                                                <i class="fa-brands fa-laravel pb-5"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-6 col-sm-2 border-circle text-center p-3 ">
+                                        <div id="tecnologias" class="rounded">
+                                            <div class="pt-4">
+                                                <p>Bootstrap</p>
+                                                <i class="fa-brands fa-bootstrap pb-5"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-
-                    </div>
+                        </div>              
                 </div>
             </div>
 
