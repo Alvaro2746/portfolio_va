@@ -12,6 +12,19 @@ header{
     background: rgb(2,0,36);
     height: 80px;
 }
+@media only screen and (max-width: 768px) {
+    header {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        transition: 0.7s;
+        padding: 30px 20px;
+        z-index: 10;
+        background: rgb(2,0,36);
+        height: 25%;
+        }
+  }
 header.down{
     background: rgba(0, 213, 255, 0);
     transition: 0.7s;
