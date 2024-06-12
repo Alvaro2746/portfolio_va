@@ -96,9 +96,7 @@ div #int a:hover{
     filter: grayscale(0%);
 
 }
-#exp div{
-    display: inline;
-}
+
 #exp{
     background-color: rgb(255, 255, 255);
 }

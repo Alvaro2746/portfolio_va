@@ -9,7 +9,7 @@
     <title>About me</title>
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles2.css">
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 
 
@@ -312,35 +312,60 @@
             </div>
         </div>
 
+                
 
         <div class="container">
 
+                    <div class="text_ani">
+                        <div data-animation="show">
+                            <div class="col-12 pt-5 pb-4">
+                                <h2 id="exptit">Work experience</h2>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="col-12 pt-5 pb-4">
-                <h2 id="exptit">Work experience</h2>
-            </div>
+            
             <div id="exp" class="row rounded shadow px-2 py-3">
-                <div class="col-2 d-none d-sm-block text-center my-auto">
-                    <img src="images/WH.png" alt="WH">
+
+            <div class="text_ani">
+                <div data-animation="show">
+                    <div class="row">
+                        <div class="col-2 d-none d-sm-block text-center my-auto">
+                            <img src="images/WH.png" alt="WH">
+                        </div>
+                        <div class="col-12 col-sm-10 my-4">
+                            <h2>Bilingual Agent</h2>
+                            <h3>WebHelp - One Link</h3>
+                            <h4>Jun/2023 - Present</h4>
+                            <p>Customer service agent for a major U.S. financial institution, providing 100% English support for
+                                incident reporting, technical service, and managing mass outages.</p>
+                        </div>
+                    </div>
+                            
                 </div>
-                <div class="col-12 col-sm-10 my-4">
-                    <h2>Bilingual Agent</h2>
-                    <h3>WebHelp - One Link</h3>
-                    <h4>Jun/2023 - Present</h4>
-                    <p>Customer service agent for a major U.S. financial institution, providing 100% English support for
-                        incident reporting, technical service, and managing mass outages.</p>
+            </div>
+
+            <div class="text_ani">
+                <div data-animation="show">
+                    <div class="row">
+                        <div class="col-2 d-none d-sm-block text-center my-auto">
+                        <img src="images/TP.png" alt="TP">
+                        </div>
+                        <div class="col-12 col-sm-10 my-4">
+                            <h2>Customer Service Agent</h2>
+                            <h3>Teleperformance</h3>
+                            <h4>Feb/2022 - May/2023</h4>
+                            <p>Handling calls and managing social media for customer service of a major telecom company in
+                                Panama, providing technical support, service-desk escalations, and billing management.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-2 d-none d-sm-block text-center my-auto">
-                    <img src="images/TP.png" alt="TP">
-                </div>
-                <div class="col-12 col-sm-10 my-4">
-                    <h2>Customer Service Agent</h2>
-                    <h3>Teleperformance</h3>
-                    <h4>Feb/2022 - May/2023</h4>
-                    <p>Handling calls and managing social media for customer service of a major telecom company in
-                        Panama, providing technical support, service-desk escalations, and billing management.</p>
-                </div>
-                <div class="col-2 d-none d-sm-block text-center my-auto">
+            </div>
+
+            <div class="text_ani">
+                <div data-animation="show">
+                    <div class="row">
+                    <div class="col-2 d-none d-sm-block text-center my-auto">
                     <img src="images/Avon.png" alt="Avon">
                 </div>
                 <div class="col-12 col-sm-10 my-4">
@@ -350,7 +375,10 @@
                     <p>Preparing equipment for delivery to end users. Solving IT problems. Maintaining equipment and
                         direct communication with workers to resolve incidents.</p>
                 </div>
-            </div>
+            </div>                        
+        </div>
+    </div>
+</div>
 
 
             <div class="col-12 pt-5 pb-4">
