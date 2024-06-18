@@ -22,8 +22,8 @@ header{
         padding: 30px 20px;
         z-index: 10;
         background: rgb(2,0,36);
-        height: 25%;
-        }
+        height: 115px;
+    }
   }
 header.down{
     background: rgba(0, 213, 255, 0);

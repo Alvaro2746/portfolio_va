@@ -36,10 +36,10 @@ if($_POST){
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 </head>
 <body class="d-flex flex-column h-100">
@@ -50,7 +50,7 @@ if($_POST){
         
             <div  class="row">
                 <div class="col-12 py-4">
-                    <h1>contact</h1>
+                    <h1>Contact</h1>
                 </div>
             </div>
             <div class="row">
@@ -58,20 +58,21 @@ if($_POST){
                    <p>Contact me or date a meeting with me using one of the followin options.</p> 
                    
                    <div class="container_contact">
-                        <div class="circle whatsapp">
+                        <div class="circle whatsapp hov">
                             <a href="https://api.whatsapp.com/send?phone=573184559655" target="_blank"><i class="fab fa-whatsapp"></i></a>
                         </div>
-                        <div class="circle email">
+                        <div class="circle email hov">
                             <a href="mailto:<?php echo $email1; ?>?subject=<?php echo $subject1; ?>&body=<?php echo $body1; ?>"><i class="fas fa-envelope"></i></a>
 
                         </div>
-                        <div class="circle zoom">
+                        <div class="circle zoom hov">
                         <a href="https://calendly.com/alvarovillarreal2746/30min" target="_blank"><i class="fas fa-video"></i></a>
                         </div>
-                        <div class="circle linkedin">
+                        <div class="circle linkedin hov">
                             <a href="https://www.linkedin.com/in/alvaro-villarreal-854061188/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
+
                     
 
                 </div>
