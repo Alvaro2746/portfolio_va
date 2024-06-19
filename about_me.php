@@ -9,7 +9,7 @@
     <title>About me</title>
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 
 
@@ -68,7 +68,7 @@
 
                 <div id="profile" class="col-12 col-sm-3 mx-auto d-none d-sm-block">
                     <figure class="hero_figure profileP">
-                        <img src="images/ProfileAM.jpg" class="img-fluid rounded-circle hero_img" alt="Profile"
+                        <img src="images/Profile2.jpg" class="img-fluid rounded-circle hero_img" alt="Profile"
                             data-animation="show">
                     </figure>
                 </div>
@@ -77,7 +77,7 @@
                 <div class="text_ani d-block d-sm-none">
                     <div data-animation="show">
                         <div class="col-12 col-sm-6 my-4 ">
-                            <img src="images/ProfileAM.jpg" class="img-fluid rounded-circle" alt="Profile">
+                            <img src="images/Profile2.jpg" class="img-fluid rounded-circle" alt="Profile">
                         </div>
                     </div>
                 </div>

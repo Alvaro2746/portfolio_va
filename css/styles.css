@@ -33,6 +33,9 @@ header.down{
 header.down nav a{
     transition: 0.7s;
 
+    color: #fff;
+}
+.men a{
     color: #000000;
 }
 
@@ -428,7 +431,7 @@ h2 {
 
 }
 
-#navborder {
+.men {
     border: solid;
     border-color: #1e00c5;
     border-radius: 20px;
@@ -436,17 +439,119 @@ h2 {
 }
 
 nav a {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: bold;
+    position: relative;
+    background-color: #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px;
+    transition: .5s;
+    margin-left: 8px;
+    margin-right: 8px;
 }
-
+nav a.men1:hover{
+    letter-spacing: 0.25em;
+    background: #000cee;
+    box-shadow: 0 0 35px #000cee;
+}
+nav a.men2:hover{
+    letter-spacing: 0.25em;
+    background: #5a00d1;
+    box-shadow: 0 0 35px #5a00d1;
+}nav a.men3:hover{
+    letter-spacing: 0.25em;
+    background: #00cc33;
+    box-shadow: 0 0 35px #00cc33;
+}nav a.men4:hover{
+    letter-spacing: 0.25em;
+    background: #d60000;
+    box-shadow: 0 0 35px #d60000;
+}
 nav ul {
     display: inline-block;
-    text-align: center;
+}
+nav a:before{
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+nav a span{
+    position: relative;
+    z-index: 1;
+}
+nav a #mark i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+/* UP */
+nav a #mark::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 20%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+nav a:hover #mark::before{
+    width: 20px;
+    right: 60%;
 }
 
-#nav {
+/* DOWN */
+nav a #mark::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+nav a:hover #mark::after{
+    width: 20px;
+    left: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav a {
+        position: relative;
+        font-size: .9em;
+        letter-spacing: 0.1em;
+        font-weight: 400;
+        padding: 5px;
+        transition: .5s;
+        margin-left: 5px;
+        margin-right: 5px;
+    
+    }
+    nav a.men1:hover{
+        letter-spacing: 0.15em;
+        background: #000cee;
+        box-shadow: 0 0 35px #000cee;
+    }
+    nav a.men2:hover{
+        letter-spacing: 0.15em;
+        background: #5a00d1;
+        box-shadow: 0 0 35px #5a00d1;
+    }nav a.men3:hover{
+        letter-spacing: 0.15em;
+        background: #00cc33;
+        box-shadow: 0 0 35px #00cc33;
+    }nav a.men4:hover{
+        letter-spacing: 0.25em;
+        background: #d60000;
+        box-shadow: 0 0 35px #d60000;
+    }
 
 }
 
@@ -455,17 +560,6 @@ nav ul {
     color: white;
 }
 
-div #cv a {
-    background-color: #1e00c5;
-    border-radius: 20px;
-    width: 180px;
-    height: 40px;
-    color: rgb(188, 188, 188);
-
-}
-div #cv a:hover{
-    background-color: rgb(0, 0, 63);
-}
 .menu{
     width: 100%;
     text-align: left;
@@ -485,15 +579,28 @@ h1 {
     font-weight: 400;
 
 }
+
 .circle {
-    width: 100px; /* Ajusta el tamaño según tus necesidades */
-    height: 100px; /* Ajusta el tamaño según tus necesidades */
+    width: 120px; 
+    height: 120px; 
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional para darle un poco de profundidad */
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2); 
     margin: 10px; /* Espacio entre los círculos */
+}
+@media only screen and (max-width: 768px) {
+    .circle {
+        width: 80px; 
+        height: 80px; 
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2); 
+        margin: 10px; /* Espacio entre los círculos */
+    }
 }
 
 .whatsapp {
@@ -534,6 +641,45 @@ h1 {
 
 }
 
+@media only screen and (max-width: 768px) {
+    .hov::before{
+        content: "";
+        background: linear-gradient(
+            45deg,
+            #ff0000, #ff7300, #fffB00, #48ff00,
+            #00ffd5, #002bff, #ff00c8, #ff0000 
+        );
+        position: absolute;
+        top: -2px;
+        left: -2px; 
+        background-size: 600%;
+        z-index: -1;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+        transition: opacity .3s ease-in-out ;
+        border-radius: 10px;
+        opacity: 0;
+        
+    
+    }
+    @keyframes glowing {
+        0% {background-position: 0 0;}
+        50% {background-position: 400% 0;}
+        100% {background-position: 0 0}
+        
+    }
+    .hov:hover::before{
+        opacity: 1;
+    }
+    .hov:active:after{
+        background: transparent;
+    }
+    .hov:active{
+        color: #000000;
+    }
+}
 .hov::before{
     content: "";
     background: linear-gradient(
