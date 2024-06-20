@@ -1,14 +1,26 @@
 
-<nav class="menu">
-            <div class="container">
-                <div class="row">
-                    <div id="nav" class="col-12 col-sm-8 ">
-                            <a class="men1" href="index.php"><ul class="px-3 " <?php echo $pag=="home"? "id='navborder'":""; ?>><span>Home</span><i id="mark"></i></ul></a>
-                            <a class="men2" href="about_me.php" <?php echo $pag=="about_me"? "id='navborder'":""; ?>> <ul class="px-3  " style="--clr:#1e9bff"><span>About me</span><i id="mark"></i></ul></a>
-                            <a class="men3" href="projects.php" <?php echo $pag=="projects"? "id='navborder'":""; ?>><ul class="px-3 "><span>Projects</span><i id="mark"></i></ul></a>
-                            <a class="men4" href="contact.php" <?php echo $pag=="contact"? "id='navborder'":""; ?>><ul class="px-3 " ><span>Contact</span><i id="mark"></i></ul></a>
+<nav class="menu ">
+            <div class="container ">
+                <div class="row ">
+                    <div id="nav" class="col-12 col-lg-9 ">
+                            <div class="row conbox">
+                                <div class="col-6 col-lg-3">
+                                    <a class="men1 " href="index.php"><ul class="px-3 " <?php echo $pag=="home"? "id='navborder'":""; ?>><span>Home</span><i id="mark"></i></ul></a>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <a class="men2" href="contact.php" <?php echo $pag=="contact"? "id='navborder'":""; ?>><ul class="px-3 " ><span>Contact</span><i id="mark"></i></ul></a>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <a class="men3" href="projects.php" <?php echo $pag=="projects"? "id='navborder'":""; ?>><ul class="px-3 "><span>Projects</span><i id="mark"></i></ul></a>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <a class="men4" href="about_me.php" <?php echo $pag=="about_me"? "id='navborder'":""; ?>> <ul class="px-3  " style="--clr:#1e9bff"><span>About me</span><i id="mark"></i></ul></a>
+                                </div>
+
+                            </div>
+
                     </div>
-                    <div id="cv" class="col-12 col-sm-4 " >
+                    <div id="cv" class="col-12 col-lg-3 text-end" >
                         
                         <a id="" class="men1" target="_blank" href="https://www.canva.com/design/DAFZLvOSf-M/g30fdTkEtFSjhJ6wvCxO-w/edit?utm_content=DAFZLvOSf-M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" role="button"><span>Download CV <i class="fa-solid fa-download"></i></span><i id="mark"></i></a>
 

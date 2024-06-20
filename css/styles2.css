@@ -38,7 +38,9 @@ header.down nav a{
 .men a{
     color: #000000;
 }
-
+.conbox{
+    box-sizing: content-box;
+}
 /*-------------------Main------------------------*/
 
 .top{
