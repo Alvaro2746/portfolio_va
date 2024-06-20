@@ -12,7 +12,7 @@ header{
     background: rgb(2,0,36);
     height: 80px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     header {
         position: fixed;
         display: flex;
@@ -39,7 +39,7 @@ header.down nav a{
     color: #000000;
 }
 .conbox{
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 /*-------------------Main------------------------*/
 
@@ -445,13 +445,11 @@ nav a {
     background-color: #fff;
     color: #fff;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.3em;
     letter-spacing: 0.1em;
     font-weight: 400;
     padding: 10px;
     transition: .5s;
-    margin-left: 8px;
-    margin-right: 8px;
 }
 nav a.men1:hover{
     letter-spacing: 0.25em;
@@ -522,7 +520,34 @@ nav a:hover #mark::after{
     width: 20px;
     left: 80%;
 }
-
+@media only screen and (max-width: 1200px) {
+    nav a {
+        position: relative;
+        font-size: .9em;
+        font-weight: 400;
+        padding: 5px;
+        transition: .5s;
+    
+    }
+    nav a.men1:hover{
+        letter-spacing: 0.15em;
+        background: #000cee;
+        box-shadow: 0 0 35px #000cee;
+    }
+    nav a.men2:hover{
+        letter-spacing: 0.15em;
+        background: #5a00d1;
+        box-shadow: 0 0 35px #5a00d1;
+    }nav a.men3:hover{
+        letter-spacing: 0.15em;
+        background: #00cc33;
+        box-shadow: 0 0 35px #00cc33;
+    }nav a.men4:hover{
+        letter-spacing: 0.25em;
+        background: #d60000;
+        box-shadow: 0 0 35px #d60000;
+    }
+}
 @media only screen and (max-width: 768px) {
 
     nav a {
@@ -532,8 +557,6 @@ nav a:hover #mark::after{
         font-weight: 400;
         padding: 5px;
         transition: .5s;
-        margin-left: 5px;
-        margin-right: 5px;
     
     }
     nav a.men1:hover{
