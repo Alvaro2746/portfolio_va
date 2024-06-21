@@ -41,6 +41,35 @@ header.down nav a{
 .conbox{
     box-sizing: border-box;
 }
+
+
+
+a.navbordermen1  {
+    letter-spacing: 0.25em;
+    background: #000cee;
+    box-shadow: 0 0 35px #000cee;
+    
+}
+a.navbordermen2  {
+    letter-spacing: 0.25em;
+    background: #5a00d1;
+    box-shadow: 0 0 35px #5a00d1;
+
+}
+a.navbordermen3  {
+    letter-spacing: 0.25em;
+    background: #00cc33;
+    box-shadow: 0 0 35px #00cc33;
+
+}
+a.navbordermen4  {
+    letter-spacing: 0.25em;
+    background: #d60000;
+    box-shadow: 0 0 35px #d60000;
+
+}
+
+
 /*-------------------Main------------------------*/
 
 .top{
@@ -520,6 +549,9 @@ nav a:hover #mark::after{
     width: 20px;
     left: 80%;
 }
+
+
+
 @media only screen and (max-width: 1200px) {
     nav a {
         position: relative;

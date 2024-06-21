@@ -41,6 +41,35 @@ header.down nav a{
 .conbox{
     box-sizing: border-box;
 }
+
+
+
+a.navbordermen1  {
+    letter-spacing: 0.25em;
+    background: #000cee;
+    box-shadow: 0 0 35px #000cee;
+    
+}
+a.navbordermen2  {
+    letter-spacing: 0.25em;
+    background: #5a00d1;
+    box-shadow: 0 0 35px #5a00d1;
+
+}
+a.navbordermen3  {
+    letter-spacing: 0.25em;
+    background: #00cc33;
+    box-shadow: 0 0 35px #00cc33;
+
+}
+a.navbordermen4  {
+    letter-spacing: 0.25em;
+    background: #d60000;
+    box-shadow: 0 0 35px #d60000;
+
+}
+
+
 /*-------------------Main------------------------*/
 
 .top{
@@ -52,6 +81,10 @@ header.down nav a{
 #profile img{
     height: 100%;
     width: 100%;
+}
+.profile2{
+    height: 200px;
+    width: 200px;
 }
 
 #int {
@@ -244,6 +277,7 @@ div #int:hover{
 .unset{
     opacity: var(--opacity);
     transform: var(--transform);
+    
 }
 .profileP {
     width: 160%;
@@ -265,14 +299,9 @@ div #int:hover{
 /*-------------------Header------------------------*/
 
 /*-------------------Main------------------------*/
-#rocket img {
-    height: 400px;
-    width: 250px;
-}
+
 
 #rocket img:hover {
-    height: 500px;
-    width: 300px;
 }
 
 #rocket {
@@ -281,10 +310,16 @@ div #int:hover{
 }
 
 #contcohe    {
-    height: 450px;
+    height: 350px;
     box-sizing: border-box;
 }
-
+#logo1{
+    width: 1100px;
+}
+#logo2{
+    width: 300px;
+    margin-top: 50px;
+}
 #rocket p {
     border: solid;
     border-radius: 20px;
@@ -520,6 +555,9 @@ nav a:hover #mark::after{
     width: 20px;
     left: 80%;
 }
+
+
+
 @media only screen and (max-width: 1200px) {
     nav a {
         position: relative;
