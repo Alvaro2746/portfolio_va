@@ -74,13 +74,14 @@
                 </div>
 
 
-                <div class="text_ani d-block d-sm-none">
-                    <div data-animation="show">
-                        <div class="col-12 col-sm-6 my-4 profile2">
-                            <img src="images/Logo-transparent.png" class="img-fluid " alt="Profile">
+                <div class="text_ani d-block d-sm-none col-12 text-center">
+                    <div data-animation="show" class="col-12">
+                        <div class="col-12 col-sm-6 my-4 mx-auto profile2">
+                            <img src="images/Logo-transparent.png" class="img-fluid movpic" alt="Profile">
                         </div>
                     </div>
                 </div>
+
 
                 <div class="text_ani">
                     <div data-animation="show">

@@ -285,7 +285,13 @@ div #int:hover{
     margin-top: 100px;
 
 }
-
+#pcenter{
+    text-align: center;
+}
+.movpic{
+    height: 100px;
+    width: 100px;
+}
 
 
 /*-------------------Footer------------------------*/
