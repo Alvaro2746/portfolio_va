@@ -10,27 +10,27 @@
     <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
 </head>
 <?php
-$pag=$_GET["m"];
 
-if(isset($pag)){ 
-    if ($pag=="home"){
+
+if(isset($_GET["m"])){ 
+    if ($_GET["m"]=="home"){
         include_once("home.php"); 
-    } elseif ($pag=="contact"){
+    } elseif ($_GET["m"]=="contact"){
         include_once("contact.php"); 
-    }elseif ($pag=="projects") {
+    }elseif ($_GET["m"]=="projects") {
         include_once("projects.php"); 
-    }elseif ($pag=="about_me") {
+    }elseif ($_GET["m"]=="about_me") {
         include_once("about_me.php"); 
 }
 }else{
-    $pag="home";
-    if ($pag=="home"){
+    $_GET["m"]="home";
+    if ($_GET["m"]=="home"){
         include_once("home.php"); 
-    } elseif ($pag=="contact"){
+    } elseif ($_GET["m"]=="contact"){
         include_once("contact.php"); 
-    }elseif ($pag=="projects") {
+    }elseif ($_GET["m"]=="projects") {
         include_once("projects.php"); 
-    }elseif ($pag=="about_me") {
+    }elseif ($_GET["m"]=="about_me") {
         include_once("about_me.php");
     }
 }

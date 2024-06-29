@@ -113,7 +113,7 @@
                     <p id="web">Full Stack project developed in PHP to showcase my skills, education and experience graphically, allowing contact with new clients and showing all my projects and social network.</p>
                     <div id="pbotton" class="row">
                         <div id="vo" class="col-6">
-                            <a id="" class="btn btn-primary" target="_blank" href="index.php" role="button">View online</a>
+                            <a id="" class="btn btn-primary" target="_blank" href="?home" role="button">View online</a>
                         </div>
                         <div id="cf" class="col-6">
                             <a target="blank" href="https://github.com/Alvaro2746/portfolio_va">Source code</a>
